@@ -1,0 +1,27 @@
+{
+    "name": "motokraft/xsl",
+    "description": "Генерация шаблонов XSLT для XML документа",
+    "keywords": [ "xsl", "xslt", "xml", "php" ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Motokraft",
+            "email": "valeravk230594@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "motokraft/html-element": "^1.0.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Motokraft\\Xsl\\": ""
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
